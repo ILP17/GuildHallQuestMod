@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "guildhallquestingmod:items/quest_book_configurator"
+  }
+}
