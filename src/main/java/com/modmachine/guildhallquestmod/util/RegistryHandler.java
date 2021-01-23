@@ -1,7 +1,6 @@
 package com.modmachine.guildhallquestmod.util;
 
 import com.modmachine.guildhallquestmod.GuildHallQuesting;
-import com.modmachine.guildhallquestmod.items.ItemBase;
 import com.modmachine.guildhallquestmod.items.QuestBook;
 import com.modmachine.guildhallquestmod.items.QuestBookConfigurator;
 import net.minecraft.item.Item;

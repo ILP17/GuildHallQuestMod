@@ -1,6 +1,7 @@
 package com.modmachine.guildhallquestmod;
 
 import com.modmachine.guildhallquestmod.util.RegistryHandler;
+import com.modmachine.guildhallquestmod.util.RenderGuiHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -34,6 +35,7 @@ public class GuildHallQuesting
         RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new RenderGuiHandler());
     }
 
     private void setup(final FMLCommonSetupEvent event) {

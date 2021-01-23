@@ -1,5 +1,7 @@
 {
   "item.guildhallquestingmod.quest_book": "Quest Book",
   "item.guildhallquestingmod.quest_book_configurator": "Quest Book Configurator",
-  "itemGroup.guildHallQuestingBookTab" : "Guild Hall Questing"
+  "itemGroup.guildHallQuestingBookTab" : "Guild Hall Questing",
+
+  "container.quest_book": "Guild Hall Quest Book"
 }
